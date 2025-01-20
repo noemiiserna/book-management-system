@@ -12,9 +12,6 @@ private:
     string reservationName;
 
 public:
-    // Constructor
-    Book(string t = "The NeverEnding Story", string a = "Michael Ende", bool d = true);
-
     // Getters
     string getTitle() const;
     string getAuthor() const;
